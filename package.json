@@ -1,0 +1,22 @@
+{
+    "name": "my-theme",
+    "displayName": "my-theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "jdcrensh",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "My Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/My Theme-color-theme.json"
+            }
+        ]
+    }
+}
